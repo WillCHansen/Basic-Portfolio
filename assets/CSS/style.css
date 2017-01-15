@@ -1,7 +1,8 @@
 #main_name{
 	float: left;
 	width: 171px;
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background: #4eaaa4;
 	margin-left: 100px;
 	padding-top: 5px;
@@ -42,6 +43,7 @@
 	height: 85px;
 	background-color: white;
 	margin-bottom: 50px;
+	display: block;
 }
 body{
 	margin: 0px;
@@ -122,5 +124,31 @@ a{
 	position: absolute;
 	right: 0px;
 	left: 0px;
-	bottom: 0px;
+	bottom:0px;
+}
+.inputfield{
+	width: 565px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.textfield{
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #91878e;
+}
+#textbox{
+	height: 200px;
+	color: #91878e;
+	border-style: solid;
+	border-color: #dfdfdf;
+}
+#submit{
+	margin-top: 16px;
+	margin-left: 20px;
+	background-color: #4eaaa4;
+	border-style: none;
+	height: 40px;
+	width: 100px;
+	color: white;
+	font-size: 15px;
 }
