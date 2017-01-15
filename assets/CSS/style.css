@@ -10,7 +10,7 @@
 	padding-top: 35px;
 	float: right;
 	width: 30%;
-	margin-right: 5px;
+	margin-right: 55px;
 	
 }
 .about_container{
@@ -19,21 +19,20 @@
 	display: block;
 	border: 1px solid rgb(207, 207, 207);
 	float: left;
-	margin-left: 100px;
 	margin-top: 50px;
 	padding: 20px;
 	padding-top: 0px;
-	width: 500px;
+	width: 608px;
 }
 .connect_container{
-	float: left;
+	float: right;
 	background-color: white;
 	border-style: none;
 	border: 1px solid rgb(207, 207, 207);
-	margin-left: 50px;
 	margin-top: 50px;
 	padding: 20px;
 	padding-top: 0px;
+	width: 228px;
 }
 #hmainname{
 	color: white;
@@ -43,9 +42,11 @@
 	border-bottom: 2px solid rgb(207, 207, 207);
 	overflow: auto;
 	height: 85px;
+	background-color: white;
 }
 body{
 	margin: 0px;
+	background-image: url(../images/sayagata-400px.png);
 }
 a{
 	color: rgb(207, 207, 207);
@@ -60,15 +61,16 @@ a{
 	padding-right: 5px
 }
 #content_container{
-	background-image: url(../images/sayagata-400px.png);
+	width: 960px;
 	overflow: auto;	
-	height: 500px
+	height: 500px;
+	margin-left: 100px;
 }
 .headinfo{
 	color: #4eaaa4;
 	padding-bottom: 10px;
 }
-#aboutme{
+#aboutme, #portfolio{
 	text-align: left;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -100,4 +102,16 @@ a{
 	color: #a2a2a2;
 	border-style: none;
 	border-top: 4px solid #4eaaa4;
+	height: 85px;
+	position: absolute;
+	bottom: 0px; 
+	right: 0px;
+	left: 0px;
+}
+#footertext{
+	padding-top: 20px;
+}
+.logo{
+	width: 73px;
+	height: 73px;
 }
