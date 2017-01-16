@@ -152,3 +152,56 @@ a{
 	color: white;
 	font-size: 15px;
 }
+#project1overlay{
+	position: absolute;
+	background: #4eaaa4;
+	height: 65px;
+	width: 290px;
+	left: 123px;
+	bottom: 265px;
+	color: white;
+	text-align: center;
+}
+.overtext{
+	margin-top: 23px;
+}
+#project2overlay{
+	position: absolute;
+	background: #4eaaa4;
+	height: 65px;
+	width: 290px;
+	left: 437px;
+	bottom: 265px;
+	color: white;
+	text-align: center;
+}
+#project3overlay{
+	position: absolute;
+	background: #4eaaa4;
+	height: 65px;
+	width: 290px;
+	left: 123px;
+	bottom: -9px;
+	color: white;
+	text-align: center;
+}
+#project4overlay{
+	position: absolute;
+	background: #4eaaa4;
+	height: 65px;
+	width: 290px;
+	left: 437px;
+	bottom: -9px;
+	color: white;
+	text-align: center;
+}
+#project5overlay{
+	position: absolute;
+	background: #4eaaa4;
+	height: 65px;
+	width: 290px;
+	left: 123px;
+	bottom: -283px;
+	color: white;
+	text-align: center;
+}
