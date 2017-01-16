@@ -1,24 +1,24 @@
 #main_name{
 	float: left;
-	width: 171px;
+	width: 205px;
 	padding-left: 20px;
 	padding-right: 20px;
-	background: #4eaaa4;
+	background: #4aaaa5;
 	margin-left: 100px;
 	padding-top: 5px;
+	padding-bottom: 1px;
 }
 #Links{
 	padding-top: 35px;
 	float: right;
 	width: 30%;
 	margin-right: 55px;
-	
 }
 .about_container{
 	clear: both;
-	background-color: white;
+	background-color: #ffffff;
 	display: block;
-	border: 1px solid rgb(207, 207, 207);
+	border: 1px solid #dddddd;
 	float: left;
 	padding: 20px;
 	padding-top: 0px;
@@ -26,22 +26,23 @@
 }
 .connect_container{
 	float: right;
-	background-color: white;
+	background-color: #ffffff;
 	border-style: none;
-	border: 1px solid rgb(207, 207, 207);
+	border: 1px solid #dddddd;
 	padding: 20px;
 	padding-top: 0px;
 	width: 228px;
 }
 #hmainname{
-	color: white;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .header_container_div{
 	border-style: none;
-	border-bottom: 2px solid rgb(207, 207, 207);
+	border-bottom: 2px solid #cccccc;
 	overflow: auto;
 	height: 85px;
-	background-color: white;
+	background-color: #ffffff;
 	margin-bottom: 50px;
 	display: block;
 }
@@ -50,16 +51,24 @@ body{
 	background-image: url(../images/sayagata-400px.png);
 }
 a{
-	color: rgb(207, 207, 207);
+	color: #dddddd;
 	text-decoration: none;
 }
 #about_button{
-	border-right: 1px solid rgb(207, 207, 207);
-	padding-right: 5px
+	border-right: 1px solid #dddddd;
+	padding-right: 5px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #portfolio_button{
-	border-right: 1px solid rgb(207, 207, 207);
-	padding-right: 5px
+	border-right: 1px solid #dddddd;
+	padding-right: 5px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#contact_button{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #content_container{
 	width: 960px;
@@ -67,18 +76,21 @@ a{
 	margin-left: 100px;
 }
 .headinfo{
-	color: #4eaaa4;
+	color: #4aaaa5;
 	padding-bottom: 10px;
+	font-size: 21px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 #aboutme, #portfolio{
+	font-size: 30px;
 	text-align: left;
 	margin-left: 20px;
 	margin-right: 20px;
-	border-bottom: 2px solid rgb(207, 207, 207);
+	border-bottom: 2px solid #dddddd;
 }
 #connectme{
 	text-align: center;
-	border-bottom: 2px solid rgb(207, 207, 207);
+	border-bottom: 2px solid #dddddd;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -86,14 +98,16 @@ a{
 	width: 128px;
 	height: 128px;
 	padding-left: 20px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 	float: left;
 	padding-right: 20px;
 }
 #aboutpara{
 	font-size: 20px;
 	width: 480px;
-	color: #91878e;
+	color: #777777;
+	padding-left: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #footer_container{
 	overflow: auto;
@@ -101,7 +115,7 @@ a{
 	background-color: #666666;
 	color: #a2a2a2;
 	border-style: none;
-	border-top: 4px solid #4eaaa4;
+	border-top: 4px solid #4aaaa5;
 	height: 85px;
 	margin-top: 50px;
 }
@@ -130,78 +144,82 @@ a{
 	width: 565px;
 	margin-left: 20px;
 	margin-right: 20px;
+	line-height: 30px;
 }
 .textfield{
 	margin-left: 20px;
 	margin-right: 20px;
-	color: #91878e;
+	color: #777777;
+	margin-bottom: 10px;
+	font-size: 20px;
 }
 #textbox{
 	height: 200px;
-	color: #91878e;
+	color: #777777;
 	border-style: solid;
 	border-color: #dfdfdf;
 }
 #submit{
 	margin-top: 16px;
 	margin-left: 20px;
-	background-color: #4eaaa4;
+	background-color: #4aaaa5;
 	border-style: none;
 	height: 40px;
 	width: 100px;
-	color: white;
+	color: #ffffff;
 	font-size: 15px;
 }
 #project1overlay{
 	position: absolute;
-	background: #4eaaa4;
+	background: #4aaaa5;
 	height: 65px;
 	width: 290px;
 	left: 123px;
 	bottom: 265px;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 }
 .overtext{
 	margin-top: 23px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 #project2overlay{
 	position: absolute;
-	background: #4eaaa4;
+	background: #4aaaa5;
 	height: 65px;
 	width: 290px;
 	left: 437px;
 	bottom: 265px;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 }
 #project3overlay{
 	position: absolute;
-	background: #4eaaa4;
+	background: #4aaaa5;
 	height: 65px;
 	width: 290px;
 	left: 123px;
 	bottom: -9px;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 }
 #project4overlay{
 	position: absolute;
-	background: #4eaaa4;
+	background: #4aaaa5;
 	height: 65px;
 	width: 290px;
 	left: 437px;
 	bottom: -9px;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 }
 #project5overlay{
 	position: absolute;
-	background: #4eaaa4;
+	background: #4aaaa5;
 	height: 65px;
 	width: 290px;
 	left: 123px;
 	bottom: -283px;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 }
